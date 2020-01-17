@@ -220,10 +220,6 @@ valid_test=valid_test.reshape(8,28,28,1)
 unseen=model.predict(valid_test)
 
 
-# In[29]:
-
-
-classes=['normal','pneumonia']
 
 
 # In[31]:
@@ -249,6 +245,7 @@ gh='G:\\documents\\kaggel datasets\\chest_xray\\val\\PNEUMONIA'
 hg=os.path.join(gh,'*g')
 files=glob.glob(hg)
 
+print(files)
 
 # In[33]:
 
