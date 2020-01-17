@@ -67,17 +67,6 @@ xtestnormal_files=glob.glob(xtestnormal_path)
 # In[8]:
 
 
-for f2 in xtestnormal_files:
-    if "IM" in f2:
-     n=cv2.imread(f2,0)
-     h=cv2.resize(n,dsize=(28,28))
-     c.append(h)
-     d.append(0)
-    else:
-     n=cv2.imread(f2,0)
-     h=cv2.resize(n,dsize=(28,28))
-     c.append(h)
-     d.append(1)
 
 
 # In[9]:
